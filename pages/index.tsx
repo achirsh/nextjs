@@ -13,9 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          第一篇文章
-          <a href="/posts/first-post">a 点击这里</a>
-          <Link href="/posts/first-post"><a>link 点击这里</a></Link>
+          <Link href="/posts/BSR"><a>BSR</a></Link>
+          <br />
+          <Link href="/posts/SSG"><a>SSG</a></Link>
+          <br />
+          <Link href="/posts/SSR"><a>SSR</a></Link>
         </h1>
       </main>
 
